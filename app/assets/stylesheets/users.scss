@@ -4,10 +4,6 @@
 
 
 //index
-*{
-  margin: 0;
-  padding: 0;
-}
 #hero{
   height: 40%;
   padding: 10%;
@@ -28,6 +24,7 @@
   }
   #first-img{
     width: 50%;
+    height: 460px;
     background-color: grey;
     margin: 0;
     display: inline-block;
@@ -46,3 +43,49 @@
     }
   }
 }
+  .index-main-2{
+    margin-top: 5%;
+    #second-info{
+      display: inline-block;
+      width: 50%;
+      padding-right: 5%;
+      button{
+        background-color: transparent;
+        color: black;
+        -webkit-border-radius: 36px;
+        width: 130px;
+        margin-top: 3%;
+      }
+    }
+    #second-img{
+      width: 49%;
+      height: 460px;
+      background-color: grey;
+      margin: 0;
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+  .friends{
+    background-color: white;
+    header{
+        text-align: center;
+        padding: 5%;
+        font-size: 35px;
+    }
+    .row{
+      #square{
+        width: 364px;
+        height: 364px;
+        display: inline-block;
+        background-color: grey;
+      }
+      #rect{
+        width: 364px;
+        height: 590px;
+        display: inline-block;
+        vertical-align: top;
+        background-color: grey;
+      }
+    }
+  }
