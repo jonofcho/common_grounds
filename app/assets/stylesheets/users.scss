@@ -1,0 +1,48 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+//index
+*{
+  margin: 0;
+  padding: 0;
+}
+#hero{
+  height: 40%;
+  padding: 10%;
+  background-color: orange;
+  button{
+    background-color: black;
+    -webkit-border-radius: 36px;
+    color: white;
+    width: 130px;
+    margin-top: 3%;
+  }
+}
+.index-main{
+  header{
+      text-align: center;
+      padding: 5%;
+      font-size: 35px;
+  }
+  #first-img{
+    width: 50%;
+    background-color: grey;
+    margin: 0;
+    display: inline-block;
+  }
+  #first-info{
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    padding-left: 5%;
+    button{
+      background-color: transparent;
+      color: black;
+      -webkit-border-radius: 36px;
+      width: 130px;
+      margin-top: 3%;
+    }
+  }
+}
