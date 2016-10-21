@@ -178,3 +178,71 @@ select{
     }
   }
 }
+//checkout_3
+#checkout_3{
+  h1{
+    margin-bottom: 5%;
+  }
+  h4{
+    margin-left: -1.5%;
+  }
+  p{
+    margin-left: -1.5%;
+    color: grey;
+    font-size: 20px;
+  }
+  #card{
+    height: 100px;
+    border: 1px solid lightgrey;
+    padding: 2%;
+    input{
+      height: 50px;
+      width: 30px;
+      display: inline-block;
+    }
+    p{
+      vertical-align: text-bottom;
+      display: inline-block;
+    }
+    #payment-options{
+      padding-left: 6%;
+    }
+  }
+  #card-info{
+    border:1px solid lightgrey;
+    input{
+      height: 30px;
+      width: 100%;
+    }
+    .container{
+      background-color: #fcfcfc;
+      padding: 2%;
+      #card-number{
+        margin-bottom: 1%;
+      }
+    }
+  }
+  #paypal{
+    padding: 2%;
+    border: 1px solid lightgrey;
+    #paypal-radio{
+      input{
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+      }
+      img{
+        display: inline-block;
+      }
+    }
+    #payment-options-2{
+      padding-left: 16%;
+    }
+  }
+  #address{
+    margin-top: 5%;
+  }
+}
+.hidden{
+  display: none;
+}
