@@ -15,10 +15,15 @@
         a{
           color: grey;
         }
+        a:hover{
+          color: black;
+          background-color: transparent;
+        }
       }
     }
   }
 }
+//#show
 .carousel{
   margin: 0 auto;
   width: 80%;
@@ -56,5 +61,120 @@
     margin-left: 0;
     width: 10%;
     border-top: 2px solid black;
+  }
+}
+.social{
+  margin-top: 15%;
+  i{
+    margin-right: 3%;
+  }
+}
+#price{
+  font-size: 25px;
+  font-weight: lighter;
+  padding: 5%;
+  color: white;
+  background-color: black;
+  margin-top: 10%;
+  p{
+    display: inline-block;
+  }
+  span{
+    color: grey
+  }
+  button{
+    font-size: 20px;
+    border: none;
+    margin-left: 10%;
+    display: inline-block;
+    background-color: white;
+    color: white;
+    -webkit-border-radius: 36px;
+    width: 130px;
+  }
+}
+footer{
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+//checkout-1
+
+input{
+  width: 100%;
+  height: 100px;
+  padding-left: 15px;
+  font-size: 60px;
+}
+select{
+  height: 100px;
+  width: 100%;
+}
+.form{
+  margin-top: 3%;
+  padding: 2%;
+  h4{
+    margin-bottom: 3%;
+  }
+  .row{
+    margin-bottom: 2%;
+  }
+}
+#checkbox{
+  input[type=checkbox]{
+    display: inline-block;
+    width: 20px;
+    margin-top: 5%;
+    height: 50%;
+  }
+  p{
+    margin-left: 2%;
+    margin-top: 5%;
+    vertical-align: top;
+    display: inline-block;
+  }
+}
+#continue{
+  a{
+    color: darkgrey;
+  }
+  input[type=button]{
+    width: 75%;
+    border: 2px solid darkgrey;
+    height: 70px;
+    background-color: transparent;
+    color: darkgrey;
+  }
+}
+//checkout_2
+#second{
+  padding: 0;
+  margin-bottom: 3%;
+  .row{
+    padding-left: 2%;
+    margin: 0;
+    width: 100%;
+    border: 1px solid lightgrey;
+  }
+  .radio{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-right: 2%;
+    width: 100%;
+    height: 70px;
+    input{
+      height: 100%;
+
+      display: inline-block;
+    }
+    p{
+      display: inline-block;
+      color: grey;
+      margin-left: 2%;
+      margin-top: 3%;
+    }
+    .type{
+      display: inline-block;
+      float: right
+    }
   }
 }

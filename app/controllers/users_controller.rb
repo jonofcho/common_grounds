@@ -12,6 +12,12 @@ class UsersController < ApplicationController
   def checkout
   end
 
+  def checkout_2
+  end
+
+  def checkout_3
+  end
+
   def conf
   end
 end
