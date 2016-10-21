@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root to: "users#index"
 
+  get '/index' => 'users#index'
   get '/about' => 'users#about'
   get '/checkout' => 'users#checkout'
   get '/checkout_2' => 'users#checkout_2'
