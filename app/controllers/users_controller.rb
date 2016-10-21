@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   def index
+    @partials = true
   end
 
   def about

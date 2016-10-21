@@ -1,2 +1,102 @@
-<h1>Users#show</h1>
-<p>Find me in app/views/users/show.html.erb</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <h2>Christopher Columbus</h2>
+          <h2><strong>ROAST</strong></h2>
+        </div>
+      </div>
+      <div id="myCarousel" class="carousel slide">
+        <div class="text-center" style="margin-top: 3%; margin-bottom:1.5%;">
+          <a style="margin-right: 1%" class="left" href="#myCarousel" role="button" data-slide="prev">prev</a>
+          <a class="right" href="#myCarousel" role="button" data-slide="next">next</a>        <!-- Wrapper for slides -->
+        </div>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG" >
+          </div>
+          <div class="item">
+            <img src="https://genesistransformation.files.wordpress.com/2014/11/coffee.jpg" >
+          </div>
+          <div class="item">
+            <img src="http://sawadacoffee.com/wp-content/uploads/Sawada-Coffee-10DEC2015-003.jpg" >
+          </div>
+          <div class="item">
+            <img src="https://genesistransformation.files.wordpress.com/2014/11/coffee.jpg" >
+          </div>
+          <div class="item">
+            <img src="http://sawadacoffee.com/wp-content/uploads/Sawada-Coffee-10DEC2015-003.jpg" >
+          </div>
+        </div>
+        <ol class="carousel-indicators">
+          <li class="item1 active"></li>
+          <li class="item2"></li>
+          <li class="item3"></li>
+          <li class="item4"></li>
+          <li class="item5"></li>
+        </ol>
+      </div>
+      <div class="row" id="show-info">
+        <div class="col-xs-6 text-left" style="">
+          <hr>
+          <h2><strong>this roast is</strong></h2>
+          <h2><strong>for the go-getters</strong></h2>
+          <h2><strong>the adventurous</strong></h2>
+          <h2><strong>and not the</strong></h2>
+          <h2><strong>average joe.</strong></h2>
+        </div>
+        <div class="col-xs-6 text-left">
+          <hr>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          </p>
+          <br>
+          <p>
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+          </p>
+          <br>
+          <p>
+            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+    $(document).ready(function(){
+        // Activate Carousel
+        $("#myCarousel").carousel();
+
+        // Enable Carousel Indicators
+        $(".item1").click(function(){
+            $("#myCarousel").carousel(0);
+        });
+        $(".item2").click(function(){
+            $("#myCarousel").carousel(1);
+        });
+        $(".item3").click(function(){
+            $("#myCarousel").carousel(2);
+        });
+        $(".item4").click(function(){
+            $("#myCarousel").carousel(3);
+        });
+        $(".item5").click(function(){
+            $("#myCarousel").carousel(4);
+        });
+        // Enable Carousel Controls
+        $(".left").click(function(){
+            $("#myCarousel").carousel("prev");
+        });
+        $(".right").click(function(){
+            $("#myCarousel").carousel("next");
+        });
+    });
+
+    </script>
+  </body>
+</html>

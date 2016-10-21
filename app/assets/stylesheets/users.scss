@@ -1,91 +1,60 @@
-// Place all the styles related to the users controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
-
-//index
-#hero{
-  height: 40%;
-  padding: 10%;
-  background-color: orange;
-  button{
-    background-color: black;
-    -webkit-border-radius: 36px;
-    color: white;
-    width: 130px;
-    margin-top: 3%;
-  }
-}
-.index-main{
-  header{
-      text-align: center;
-      padding: 5%;
-      font-size: 35px;
-  }
-  #first-img{
-    width: 50%;
-    height: 460px;
-    background-color: grey;
-    margin: 0;
-    display: inline-block;
-  }
-  #first-info{
-    display: inline-block;
-    vertical-align: top;
-    width: 49%;
+//partial
+.container-fluid{
+  nav{
     padding-left: 5%;
-    button{
-      background-color: transparent;
-      color: black;
-      -webkit-border-radius: 36px;
-      width: 130px;
-      margin-top: 3%;
+    padding-right: 5%;
+    width: 100%;
+    h3{
+      display: inline-block;
+    }
+    ul{
+      margin-top: 1%;
+      display: inline-block;
+      li{
+        display: inline-block;
+        a{
+          color: grey;
+        }
+      }
     }
   }
 }
-  .index-main-2{
-    margin-top: 5%;
-    #second-info{
-      display: inline-block;
-      width: 50%;
-      padding-right: 5%;
-      button{
-        background-color: transparent;
-        color: black;
-        -webkit-border-radius: 36px;
-        width: 130px;
-        margin-top: 3%;
-      }
-    }
-    #second-img{
-      width: 49%;
-      height: 460px;
-      background-color: grey;
-      margin: 0;
-      display: inline-block;
-      vertical-align: top;
-    }
+.carousel{
+  margin: 0 auto;
+  width: 80%;
+  .item{
+    height: 592px;
+    width: 100%;
   }
-  .friends{
-    background-color: white;
-    header{
-        text-align: center;
-        padding: 5%;
-        font-size: 35px;
-    }
-    .row{
-      #square{
-        width: 364px;
-        height: 364px;
-        display: inline-block;
-        background-color: grey;
-      }
-      #rect{
-        width: 364px;
-        height: 590px;
-        display: inline-block;
-        vertical-align: top;
-        background-color: grey;
-      }
-    }
+  a{
+    width: 40px;
+    color:grey;
   }
+  .carousel-indicators{
+    bottom: -10%;
+  }
+  .carousel-indicators li{
+    border-color: black;
+  }
+  .carousel-indicators .active{
+    background-color: black;
+  }
+  .carousel-inner {
+   margin-bottom: 10%;
+  }
+}
+#show-info{
+  padding-left: 15%;
+  padding-right: 10%;
+  h2{
+    margin-top: 0;
+  }
+  p{
+    color: grey,
+  }
+  hr{
+    margin-left: 0;
+    width: 10%;
+    border-top: 2px solid black;
+  }
+}
